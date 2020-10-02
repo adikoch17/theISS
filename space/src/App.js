@@ -13,7 +13,7 @@ class App extends React.Component {
         // this.setState({latitude:data.latitude,longitude:data.longitude});
         let lat = data.latitude;
         let longi = data.longitude;
-        fetch(`http://api.timezonedb.com/v2.1/get-time-zone?key=T8546H6U13P4&format=json&by=position&lat=${lat}&lng=${longi}`)
+        fetch(`https://api.timezonedb.com/v2.1/get-time-zone?key=T8546H6U13P4&format=json&by=position&lat=${lat}&lng=${longi}`)
         .then(response=>response.json())
         .then(country=>{
           if(country.status==="FAILED"){
