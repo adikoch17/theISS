@@ -17,8 +17,8 @@ class App extends React.Component {
         .then(response=>response.json())
         .then(country=>{
           if(country.status==="FAILED"){
-            if(this.state.loc!=="over international water"){
-              this.setState({loc:"over international water"});
+            if(this.state.loc!=="over international waters"){
+              this.setState({loc:"over international waters"});
             }
           }
           else{
