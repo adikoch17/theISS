@@ -1,0 +1,75 @@
+		@font-face{
+    font-family: "Apex Mk3-ExtraLight";
+    src: url('Apex Mk3-ExtraLight.otf');
+}
+
+
+		@font-face{
+    font-family: "Apex Mk3-Medium";
+    src: url('Apex Mk3-Medium.otf');
+}
+
+		
+		iframe{
+			border:none;
+			z-index: -1;
+			position: absolute;
+			top: -10%;
+			padding-right: 200px;
+			border: none;         
+		  	height: 123%;        
+		  	width: calc(100% + 17px);
+		}
+		h1{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			font-family: "Apex Mk3-Medium";
+			font-weight: 600;
+			color: white;
+			font-size: 21vh;
+			height: 100%;
+			width: 100%;
+
+
+		}
+
+		h2{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			font-family: "Apex Mk3-ExtraLight";
+			color: white;
+			font-size: 4vh;
+			height: 100%;
+			width: 100%;
+
+
+		}
+		nav{
+			background-color: rgba(0,0,0,1);
+			width: 100%;
+			height: auto;
+			float: right;
+			display: fixed;
+			font-family: "Apex Mk3-ExtraLight";
+			font-weight: 600;
+			color: white;
+			font-size: 1vw;
+		}
+		div.listcont{
+			width: 100%;
+			height: 80px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+
+		}
+
+		#helloWorld{
+			height: 100%;
+			width: 100%;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
